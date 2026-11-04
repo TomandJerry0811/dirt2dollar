@@ -1,0 +1,58 @@
+# --------------------------------------
+# Python
+# --------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+
+# --------------------------------------
+# Virtual Environment
+# --------------------------------------
+venv/
+.venv/
+env/
+
+# --------------------------------------
+# Environment Variables & Secrets
+# --------------------------------------
+.env
+.env*
+credentials/
+*.pem
+*.key
+*.log
+server_log.txt
+
+# Keep example files
+!.env.example
+
+# --------------------------------------
+# Node / Frontend
+# --------------------------------------
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+tsconfig.tsbuildinfo
+
+# --------------------------------------
+# Archives & Temporary Recovery Folders
+# --------------------------------------
+*.zip
+*.tar.gz
+frontend-extracted/
+frontend-recovered/
+
+# --------------------------------------
+# IDE & OS Files
+# --------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Controlled Playwright backend environment
+.venv-playwright/
